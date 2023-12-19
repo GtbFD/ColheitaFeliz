@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 591868480}
   - component: {fileID: 591868479}
   m_Layer: 5
-  m_Name: Mao
+  m_Name: Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -208,7 +208,7 @@ GameObject:
   - component: {fileID: 653682715}
   - component: {fileID: 653682714}
   m_Layer: 5
-  m_Name: Ferramentas
+  m_Name: Tools
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -509,6 +509,7 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
+  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -557,7 +558,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 29
+  field of view: 60
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -584,12 +585,24 @@ Transform:
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
   m_LocalRotation: {x: 0.16578417, y: -0.22706538, z: 0.03925883, w: 0.95886165}
-  m_LocalPosition: {x: 19.13, y: 4.57, z: -27.43}
+  m_LocalPosition: {x: 19.13, y: 7.61, z: -27.43}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 19.619, y: -26.645, z: 0}
+--- !u!114 &963194229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c02756327ad54ef4ca93a4bf230b92fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1348887856
 GameObject:
   m_ObjectHideFlags: 0
@@ -602,7 +615,7 @@ GameObject:
   - component: {fileID: 1348887859}
   - component: {fileID: 1348887858}
   m_Layer: 5
-  m_Name: Pa
+  m_Name: Shovel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -780,7 +793,7 @@ GameObject:
   - component: {fileID: 2096414122}
   - component: {fileID: 2096414121}
   m_Layer: 5
-  m_Name: InterfaceUsuario
+  m_Name: UserInterface
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
